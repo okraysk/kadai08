@@ -1,3 +1,13 @@
-//「http://XXXXXX.jp/XXX というアクセスが来たときに、 AAAControllerのbbbというAction に渡すRoutingの設定」を書いてみてください。
+1. URLとControllerやActionを紐付ける機能を何といいますか？
 
-Route::get('XXX','AAAController@bbb');
+A. Routing
+
+
+2. あなたが考える、group化をすることのメリットを考えてみてください。
+
+A. 定義されたルーティングをフォルダ別のように分けることができる為、後々把握しやすい
+
+
+3. //「http://XXXXXX.jp/XXX というアクセスが来たときに、 AAAControllerのbbbというAction に渡すRoutingの設定」を書いてみてください。
+
+A. Route::get('XXX','AAAController@bbb');
