@@ -1,0 +1,14 @@
+1 Viewは何をするところでしょうか。簡潔に説明してみてください。
+
+A. アクセスしてきた誰かのブラウザにhtml表示するところ
+
+
+2 プログラマーがhtmlを書かずにPHPなどのプログラミング言語やフレームワークを使う必要があるのはどういった理由でしょうか。
+
+A.　ユーザー毎の情報が出るWebサイトが使えないから(SNSなど)
+
+
+3 【応用】 前々章でAdmin/ProfileControllerのadd Action, edit Action に次のように記述しました。
+この場合、add Action と edit Action を描画するには、それぞれどこのディレクトリに何というbladeファイルを設置すれば良いでしょうか。
+
+A. admin/profile/create.blade.php
