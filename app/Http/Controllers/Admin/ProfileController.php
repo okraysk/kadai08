@@ -20,7 +20,7 @@ class ProfileController extends Controller
     {
         return view('admin.profile.edit');
     }
-    public funvtion update()
+    public function update()
     {
         return update('admin/profile/edit');
     }
