@@ -1,11 +1,15 @@
-<!DOCTYPE html>
+@extends('layouts.profile')
 
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>課題</title>
-  </head>
-    <body>
-      <h1>課題提出用</h1>
-    </body>
-</html>
+
+@section('title', 'My プロフィール')
+
+
+@section('content')
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 mx-auto">
+        <h2>My プロフィール</h2>
+      </div>
+    </div>
+  </div>
+@endsection
